@@ -1,0 +1,33 @@
+
+.footer-container__creator{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    h3{
+    color: white;;
+}
+}
+.footer-container__from{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    padding-top: 5px;
+    h3{
+        color: white
+    }
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    pa
+    li{
+        width: 30%;
+        color: rgb(32, 235, 14);;
+        padding: 30px 0;
+    }
+}
+
+

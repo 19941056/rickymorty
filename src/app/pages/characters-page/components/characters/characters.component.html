@@ -1,0 +1,13 @@
+<div *ngIf="charactersList">
+    <div *ngFor="let element of charactersList " >
+        <h1>{{element.name}}</h1>
+        <img src="{{element.image}}" alt="">
+        <p>{{element.id}}</p>
+
+    </div>
+
+</div>
+<div class="container-button">
+<button (click)='previousPage()'>PREVIOUS</button>
+<button (click)='nextPage()'>NEXT</button>
+</div>
